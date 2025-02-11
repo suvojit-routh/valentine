@@ -1,0 +1,88 @@
+*{
+    margin: 0px;
+    border: 0px;
+}
+.sour-gummy-uniquifier {
+    font-family: "Sour Gummy", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 2rem;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.heading{
+    text-align: center;
+    padding-top: 1rem;
+    color: hotpink;
+}
+.para{
+    padding-top: 2rem;
+    text-align: center;
+    color: hotpink;
+    font-family: "Sour Gummy", serif;
+    font-size: 2rem;
+}
+img{
+    padding-top: 2rem;
+    width: auto;
+    height: 15rem;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10rem;
+    padding-top: 2rem;
+}
+
+a{
+    text-decoration: none;
+    background-color: hotpink;
+    font-family: "Sour Gummy", serif;
+    font-size:2rem;
+    width: 6rem;
+    text-align: center;
+    border-radius: 1rem;
+    color: white;
+    border: 1px solid black;
+}
+.fixed{
+    position: relative;
+}
+
+/* Change the background color of the previous & next buttons */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: hotpink; /* Red with transparency */
+    border-radius: 50%; /* Make it circular */
+    padding: 10px;
+}
+
+/* Change the button background when hovered */
+.carousel-control-prev:hover .carousel-control-prev-icon,
+.carousel-control-next:hover .carousel-control-next-icon {
+    background-color: hotpink; /* Fully red */
+}
+
+/* Change the indicators (dots) color */
+.carousel-indicators button {
+    background-color: gray; /* Default dot color */
+}
+
+.carousel-indicators .active {
+    background-color: hotpink; /* Active dot color */
+}
+
+
+.carousel-item{
+    /* padding: 3% 20% 3%; */
+    height: auto;
+}
+.d-block{
+    margin: auto;
+}
